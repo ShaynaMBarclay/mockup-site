@@ -30,7 +30,7 @@ export default function App() {
             <a href="#services">Services</a>
             <a href="#gallery">Gallery</a>
             <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact" className="nav-book">Book now</a>
           </nav>
         </div>
       </header>
@@ -50,28 +50,28 @@ export default function App() {
 
       {/* Services */}
       <section id="services" className="services section">
-        <h3 className="section-title">Your Services</h3>
-        <p className="section-subtitle">These will show what you offer.</p>
+        <h3 className="section-title">My Services</h3>
+        <p className="section-subtitle">These will show what you offer. You can add as many as you need.</p>
 
         <div className="services-grid">
           <div className="service-card">
             <h4>Your Service Name</h4>
-            <p>Short description of your service goes here.</p>
+            <p>Short description and image of your service goes here.</p>
           </div>
           <div className="service-card">
             <h4>Your Service Name</h4>
-            <p>Short description of your service goes here.</p>
+            <p>Short description and image of your service goes here.</p>
           </div>
           <div className="service-card">
             <h4>Your Service Name</h4>
-            <p>Short description of your service goes here.</p>
+            <p>Short description and image of your service goes here.</p>
           </div>
         </div>
       </section>
 
       {/* Gallery */}
       <section id="gallery" className="gallery section">
-        <h3 className="section-title">Your Work</h3>
+        <h3 className="section-title">My Work</h3>
         <p className="section-subtitle">Your own photos will be here.</p>
 
         <div className="gallery-grid">
@@ -83,7 +83,7 @@ export default function App() {
 
       {/* About */}
       <section id="about" className="about section">
-        <h3 className="section-title">About You</h3>
+        <h3 className="section-title">About "Name"</h3>
 
         <div className="gallery-grid">
           {[1, 2].map((i) => (
