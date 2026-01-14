@@ -143,7 +143,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Your Beauty Site • Powered by https://yourbeautysite.netlify.app/</p>
+        <p>© {new Date().getFullYear()} Your Beauty Site • Powered by yourbeautysite.netlify.app/</p>
       </footer>
     </div>
   );
