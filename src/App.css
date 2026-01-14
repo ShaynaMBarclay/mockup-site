@@ -66,6 +66,7 @@ a{
   font-size: 1.6rem;
   letter-spacing: 0.5px;
   color: var(--accent);
+  cursor: pointer;
 }
 
 .nav a{

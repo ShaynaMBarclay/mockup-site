@@ -4,7 +4,13 @@ import "./App.css";
 
 export default function App() {
 
-  // Navbar shrink on scroll
+  const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
+
   useEffect(() => {
     const header = document.querySelector(".header");
 
@@ -25,7 +31,9 @@ export default function App() {
       {/* Header */}
       <header className="header">
         <div className="container header-inner">
-          <h1 className="logo">Your Beauty Site</h1>
+         <h1 className="logo" onClick={scrollToTop} role="button" aria-label="Scroll to top">
+         Your Beauty Site
+         </h1>
           <nav className="nav">
             <a href="#services">Services</a>
             <a href="#gallery">Gallery</a>
