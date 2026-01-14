@@ -66,6 +66,19 @@ export default function App() {
             <h4>Your Service Name</h4>
             <p>Short description and image of your service goes here.</p>
           </div>
+          <div className="service-card">
+            <h4>Your Service Name</h4>
+            <p>Short description and image of your service goes here.</p>
+          </div>
+          <div className="service-card">
+            <h4>Your Service Name</h4>
+            <p>Short description and image of your service goes here.</p>
+          </div>
+          <div className="service-card">
+            <h4>Your Service Name</h4>
+            <p>Short description and image of your service goes here.</p>
+          </div>
+          
         </div>
       </section>
 
@@ -111,6 +124,22 @@ export default function App() {
           <button type="submit">Send</button>
         </form>
       </section>
+
+            {/* Map */}
+      <section className="map-section">
+        <h3 className="section-title">Find Me</h3>
+        <p className="section-subtitle">Can be changed to your salon/suite location</p>
+
+        <div className="map-wrapper">
+          <iframe
+            title="Salon location"
+            src="https://www.google.com/maps?q=Los+Angeles+CA&output=embed"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </section>
+
 
       {/* Footer */}
       <footer className="footer">
